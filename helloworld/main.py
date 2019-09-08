@@ -47,3 +47,9 @@ age = int(birthday_year) + period
 print(age)
 some_str = birthday_year + str(period)
 print(some_str)
+
+# Ввод, вывод
+# result = input()
+# print('Пользователь ввел', result)
+name = input('Как тебя зовут: ')
+print('Привет', name)
