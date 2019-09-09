@@ -86,10 +86,30 @@
 #
 # Понятие циклов. Цикл while
 # Вывод четных чисел от 0 до n
+# number = 0
+# n = int(input('Введите n: '))
+#
+# while number <= n:
+#     if number % 2 == 0:
+#         print(number)
+#     number += 1
+
+# Дополнительные конструкции
+# name = None
+# while name != 'Гвидо':
+#     name = input('Кто создатель python? ')
+#     if name == 'Гвидо':
+#         break
+#     print('Не верно')
+# print('Верно')
+
+# Вывод четных чисел от 0 до n
 number = 0
 n = int(input('Введите n: '))
 
 while number <= n:
     if number % 2 == 0:
-        print(number)
+        number += 1
+        continue
+    print(number)
     number += 1
